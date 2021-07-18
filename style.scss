@@ -1,0 +1,252 @@
+#top {
+  img{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 70px;
+  }
+  h1{
+    position: absolute;
+    top: 96px;
+    left: 55px;
+    font-size: 115px;
+    font-family: Chalkboard;
+    a{
+      color:white;
+      text-decoration: none;
+    }
+  }
+
+  ul{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+  }
+  li{
+    list-style: none;
+    margin-left: 35px;
+    a{
+      color:white;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+        opacity: 0.7;
+      }
+    }
+  }
+   
+}
+#menu-wrapper{
+  .title{
+    width: 100%;
+    height: 220px;
+    background-image: url(img/nathan-dumlao-XOhI_kW_TaM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+}
+.heading{
+    color: white;
+    font-family: Chalkboard;
+    font-size: 72px;
+}
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 50px auto ;
+  .sandwitch{
+    margin-left: 0;
+    margin-right: 90px;
+  }
+  .menu{
+    width: 50%;
+    text-align: center;
+    h3{
+      display: inline-block;
+      font-weight: bold;
+      font-size: 40px;
+      padding-bottom: 26px;
+      border-bottom: 5px solid #E03131;
+    }
+    .price{
+      display: flex;
+      margin-bottom: 25px;
+      dt{
+        width: 91%;
+        text-align: left;
+        border-bottom: 1px dotted black;
+        font-size: 16px;
+      }
+      dd{
+        width: 8%;
+        text-align: right;
+      }
+    }
+  }
+  img{
+    width: 45%;
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    object-fit: cover;
+  }
+}
+
+#about-wrapper{
+  .title{
+    width: 100%;
+    height: 220px;
+    background-image: url(img/karl-chor-UvWlksgZGPE-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .center{
+     text-align: center;
+   }
+   h3{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 26px;
+    border-bottom: 5px solid #E03131;
+  }
+  .about-container{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+   
+    .text{
+      width: 40%;
+      margin-right: 64px;
+      margin-top: 30px;
+     p{
+       margin-bottom: 70px;
+       font-size: 15px;
+     }
+    }
+    .about-img{
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+    
+      .first{
+        margin-bottom: 45px;
+        margin-right: 100px;
+      }
+      .second{
+        margin-left: 100px;
+       
+      }
+      img{
+        height: 250px;
+        object-fit: cover;
+      }
+    }
+  }
+  #read{
+    position: relative;
+    padding: 15px 45px;
+    width: 140px;
+    margin: 30px auto 120px;
+    &::before{
+     position: absolute;
+     content: ' ';
+     width: 30px;
+     height: 25px;
+     top: 0;
+     left: 0;
+     border-left: 2px solid #E03131;
+     border-top: 2px solid #E03131;
+    }
+    &::after{
+    position: absolute;
+    content: ' ';
+    width: 30px;
+     height: 25px;
+     bottom: 0;
+     right: 0;
+     border-bottom: 2px solid #E03131;
+     border-right: 2px solid #E03131;
+    }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+   &:hover{
+      &::before{
+        width: 100%;
+       height: 100%;
+       transition: 0.7s;
+      }
+      &::after{
+        width: 100%;
+       height: 100%;
+       transition: 0.7s;
+      }
+    
+    }
+}
+}
+
+#location-wrapper{
+  .title{
+    width: 100%;
+    height: 220px;
+    background-image: url(img/kris-atomic-3b2tADGAWnU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .center{
+    text-align: center;
+  }
+   h3{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 26px;
+    border-bottom: 5px solid #E03131;
+  }
+  .ggmap{
+    width: 80%;
+    margin: 50px auto 30px;
+    
+  }
+  .address-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  img{
+    width: 45%;
+    height: 240px;
+    margin-bottom: 100px;
+  }
+}
+footer{
+  text-align: center;
+  padding-bottom: 20px;
+  a{
+    text-decoration: none;
+    color: rgb(2, 171, 238);
+  }
+  &:hover{
+    opacity: 0.7;
+  }
+}
